@@ -9,25 +9,23 @@ nginx:
         volumes:
                 - ./logs/access.log:/var/log/nginx/default.access_log
                 - ./logs/error.log:/var/log/nginx/default.error_log warn
-                - ./nginx-vhosts/:/etc/nginx/conf.d/mysite.template
-                  #                - .:/public
-                  #        depends_on:
-                  #                 - phpfpm
+                - ./nginx-vhost/:/etc/nginx/conf.d/mysite.template
+#               - .:/public
+#       depends_on:
+#               - phpfpm
 
 phpfpm:
-        image: bitnami/php-fpm:latest
+        image: php:fpm
         ports:
                 - 9000:9000
         volumes:
-                - ./public:/myapps
-#        depends_on:
-#                - mysql
+                - ./public:/usr/share/nginx/html
 
-mysql:
-        image: bitnami/mariadb:latest
-        ports:
-                - 3306:3306
-        volumes:
-                - ./db-data:/var/lib/mysql:rw
-        environment:
-                - MARIADB_ROOT_PASSWORD=123456
+# mysql:
+#        image: bitnami/mariadb:latest
+#        ports:
+#                - 3306:3306
+#        volumes:
+#                - ./db-data:/var/lib/mysql:rw
+#        environment:
+#                - MARIADB_ROOT_PASSWORD=123456
