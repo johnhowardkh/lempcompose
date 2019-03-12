@@ -1,25 +1,25 @@
-#version: '2'
+version: '3'
 
-nginx:
-        image: nginx
-        ports:
-                - 80:8080
-        links:
-                - phpfpm
-        volumes:
-                - ./logs/access.log:/var/log/nginx/default.access_log
-                - ./logs/error.log:/var/log/nginx/default.error_log warn
-                - ./nginx-vhost/:/etc/nginx/conf.d/mysite.template
-#               - .:/public
-#       depends_on:
-#               - phpfpm
-
-phpfpm:
-        image: php:fpm
-        ports:
-                - 9000:9000
-        volumes:
+services:
+        nginx:
+                image: nginx
+                ports:
+                        - 80:80
+                links:
+                        - php
+                volumes:
+                - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+                  #                - ./logs/nginx-error.log:/var/log/nginx/error.log
                 - ./public:/usr/share/nginx/html
+                depends_on:
+                        - php
+
+        php:
+                image: php:7.2-fpm
+                ports:
+                        - 9000:9000
+                volumes:
+                        - ./public:/usr/share/nginx/html
 
 # mysql:
 #        image: bitnami/mariadb:latest
