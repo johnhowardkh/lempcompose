@@ -1,11 +1,8 @@
-# lempcompose
-Hello, this is a test string to check the second commit.
+# Run WordPress site with MySQL and over Nginx with docker-compose
 
-This is a third try to commit from the remote machine.
+Changes nginx config, main yaml, mount folders
 
-Edited nginx port number to 8000 since 80 is in use.
-
-Works good now:
+Should work like this:
 1) git pull https://github.com/johnhowardkh/lempcompose
 2) sudo docker-compose up -d
-3) curl localhost:8000
+3) curl localhost
