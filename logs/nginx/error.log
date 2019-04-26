@@ -35,3 +35,53 @@
 2019/04/25 19:03:14 [error] 6#6: *8 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.88.226, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.3:8080", host: "192.168.88.224"
 2019/04/25 19:03:15 [error] 6#6: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.88.226, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.3:8080", host: "192.168.88.224"
 2019/04/25 19:03:15 [error] 6#6: *11 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.88.226, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.3:8080", host: "192.168.88.224"
+2019/04/26 09:34:39 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.88.226, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.4:8080", host: "192.168.88.223"
+2019/04/26 09:34:40 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.88.226, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.4:8080", host: "192.168.88.223"
+2019/04/26 09:38:36 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.88.226, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:8080", host: "192.168.88.223"
+2019/04/26 09:38:41 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.88.226, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:8080", host: "192.168.88.223"
+2019/04/26 09:38:48 [error] 6#6: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.88.226, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:8080", host: "192.168.88.223"
+2019/04/26 09:38:48 [error] 6#6: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.88.226, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.2:8080", host: "192.168.88.223"
+2019/04/26 09:40:20 [error] 6#6: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.88.226, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.18.0.2:8080", host: "192.168.88.223"
+2019/04/26 09:40:20 [error] 6#6: *7 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.88.226, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://172.18.0.2:8080", host: "192.168.88.223"
+2019/04/26 10:21:38 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:21:39 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:21:40 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:21:41 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:21:42 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:21:44 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:21:48 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:21:55 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:22:08 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:22:34 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:23:26 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:42:23 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:42:24 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:42:25 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:42:26 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:42:27 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:42:30 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:42:34 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:42:41 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:42:55 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:43:21 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:43:41 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:43:42 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:43:43 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:43:45 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:43:46 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:43:49 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:43:52 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:44:00 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:44:13 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:44:40 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:57:30 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:57:31 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:57:32 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:57:33 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:57:35 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:57:37 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:57:41 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:57:48 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:58:01 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:58:27 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
+2019/04/26 10:59:19 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/conf.d/default.conf:15
