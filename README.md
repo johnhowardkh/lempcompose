@@ -1,4 +1,4 @@
-# Run WordPress site with MySQL and over Nginx with docker-compose
+# Run WordPress site with MySQL over Nginx with docker-compose
 
 Changes nginx config, main yaml, mount folders
 Added MariaDB as sql image
